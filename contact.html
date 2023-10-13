@@ -17,13 +17,13 @@
         </nav>
     </header>
     <hr>
-    <form>
+    <form class="formulario">
         <label for="name">Full Name</label><br>
-        <input type="text" name="name" placeholder="Type your full name here"><br><br>
+        <input type="text" name="name" id="name" placeholder="Type your full name here"><br><br>
         <label for="email">Email</label><br>
-        <input type="email" name="email" placeholder="Type your email here"><br><br>
+        <input type="email" name="email" id="email" placeholder="Type your email here"><br><br>
         <label for="number">Phone</label><br>
-        <input type="number" placeholder="Type your phonenumber"><br><br>
+        <input type="number" id="number" placeholder="Type your phonenumber"><br><br>
         <label for="country">Choose a country:</label><br>
 
         <select name="ciudad" id="country">
@@ -36,10 +36,10 @@
         <br><br>
 
         <label for="mensaje">Personal Message</label><br>
-        <textarea name="mensaje" cols="30" rows="10" placeholder="Type Your message here..."></textarea>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Type Your message here..."></textarea>
         <br><br>
         <label for="conditions">I agree to the terms and conditions</label>
-        <input type="checkbox"><br><br><br>
+        <input type="checkbox" id="conditions" name="conditions"><br><br><br>
 
         <input type="submit">
         <input type="reset">
@@ -50,6 +50,6 @@
 
 
 
-    <a href="/index.html">Back to Home</a>
+    <a href="./index.html">Back to Home</a>
 </body>
 </html>
